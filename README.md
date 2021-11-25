@@ -7,3 +7,13 @@ interface to change how a given configuration behaves.
 
 Follow along with this [tutorial on HashiCorp
 Learn](https://learn.hashicorp.com/tutorials/terraform/variables?in=terraform/configuration-language).
+
+# Personal notes
+
+Updated the Terraform configuration.
+
+Terraform supports several collection variable types.
+
+- List: A sequence of values of the same type.
+- Map: A lookup table, matching keys to values, all of the same type.
+- Set: An unordered collection of unique values, all of the same type.
