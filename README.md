@@ -17,3 +17,8 @@ Terraform supports several collection variable types.
 - List: A sequence of values of the same type.
 - Map: A lookup table, matching keys to values, all of the same type.
 - Set: An unordered collection of unique values, all of the same type.
+
+You can use `terraform console` to explore functions and manipulate variables
+
+You can use `terraform.tfvars` to store values for variables without default values out of the configuration files. These *.tfvars files should be not tracked in git.
+
